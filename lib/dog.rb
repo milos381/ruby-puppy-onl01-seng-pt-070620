@@ -9,8 +9,10 @@ class Dog
   end
 
   def self.all
-    @all
+    @@all
   end
-
+  def self.clear_all
+    @@all.delete
+  end
 
 end# Add your code here
