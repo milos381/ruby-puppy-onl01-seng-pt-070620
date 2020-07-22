@@ -20,4 +20,4 @@ class Dog
     puts @@all
   end
 
-end# Add your code here
+end
