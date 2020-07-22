@@ -12,7 +12,7 @@ class Dog
     @@all
   end
   def self.clear_all
-    @@all.delete
+    delete(@@all)
   end
 
 end# Add your code here
