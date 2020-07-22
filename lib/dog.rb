@@ -17,7 +17,9 @@ class Dog
     @@all.clear
   end
   def self.print_all
-    puts @@all
+    @@all.each do |i|
+      puts i
+    end
   end
 
 end
